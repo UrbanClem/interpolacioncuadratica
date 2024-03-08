@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>Interpolación</title>
+</head>
+<body>
+    <h1>Interpolación Cuadrática</h1>
+
+    <!-- Datos -->
+    <h2 class="info">Datos:</h2>
+
+    <!-- Inputs -->
+    <div class="container-fluid nav-bar bg-transparent">
+        <div class="row">
+            <div class="col">
+                <input id="fxo" type="text" class="form-control" placeholder="ln(f(x0))">
+            </div>
+            <div class="col">
+                <input id="fx1" type="text" class="form-control" placeholder="ln(f(x1))">
+            </div>
+            <div class="col">
+                <input id="fx0" type="text" class="form-control" placeholder="ln(f(x0))">
+            </div>
+            <div class="col">
+                <input id="x1" type="text" class="form-control" placeholder="x1">
+            </div>
+            <div class="col">
+                <input id="x0" type="text" class="form-control" placeholder="x0">
+            </div>
+            <div class="col">
+                <input id="x" type="text" class="form-control" placeholder="x">
+            </div>
+            <div class="col">
+                <input id="xo" type="text" class="form-control" placeholder="xo">
+            </div>
+            <div class="col">
+                <button id="submit" class="btn btn-primary">Calcular</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Resultado -->
+    <div class="output">
+        <h2>Resultado:</h2>
+        <p id="result"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

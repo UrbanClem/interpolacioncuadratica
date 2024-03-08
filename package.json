@@ -1,0 +1,16 @@
+{
+  "name": "interpolacion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://c0v4m3rl0.github.io/interpolacion",
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
