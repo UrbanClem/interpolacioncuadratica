@@ -3,8 +3,7 @@ const fx1 = document.getElementById("fx1");
 const fx0 = document.getElementById("fx0");
 const x1 = document.getElementById("x1");
 const x0 = document.getElementById("x0");
-const x = document.getElementById("x");
-const xo = document.getElementById("xo");
+const x2 = document.getElementById("x2");
 const output = document.querySelector(".output");
 const submit = document.querySelector("#submit");
 
@@ -28,12 +27,8 @@ function x0cal() {
   return parseFloat(x0.value);
 }
 
-function xcal() {
-  return parseFloat(x.value);
-}
-
-function xocal() {
-  return parseFloat(xo.value);
+function x2cal() {
+  return parseFloat(x2.value);
 }
 
 function quadraticInterpolation() {
@@ -42,8 +37,7 @@ function quadraticInterpolation() {
   const fx0Val = lnfx0();
   const x1Val = x1cal();
   const x0Val = x0cal();
-  const xVal = xcal();
-  const xoVal = xocal();
+  const xVal = x2cal();
 
   const numerator1 = (xVal - x0Val) * (xVal - x1Val);
   const numerator2 = (xVal - x0Val) * (xVal - xoVal);
